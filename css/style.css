@@ -1,0 +1,21 @@
+*{   
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+main{
+    display: inline-block;
+}
+aside{
+    /* display: inline-block; */
+    float: left;
+}
+ 
+ main .mb-3{
+     display: inline-block;
+     margin: 20px;
+     padding: 20px;
+ }
+
+ main .mb-3 p, main .mb-3 h3{
+     text-align: center;
+ }
