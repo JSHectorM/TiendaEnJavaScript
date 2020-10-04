@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styleProducto.css">
     <title>Cyber-Phone</title>
 </head>
 
@@ -50,72 +50,41 @@
                 </form>
             </div>
         </nav>
-        <main class="col-md-8 blog-main">
-            <div class="card mb-3">
-                <img style="height: 300px; width: 100%; display: inline-block;" src="https://picsum.photos/200/300" alt="Card image">
-                <h3 class="card-header">Celular A</h3>
-                <div class="card-body">
-                    <p class="card-text">Precio.</p>
+        <main>
+            <form action="" class="formulario">
+                <div class="form-group">
+                    <label class="col-form-label" for="inputDefault">Nombre del producto</label>
+                    <input type="text" class="form-control" placeholder="Nombre del producto" id="inputDefault">
                 </div>
-            </div>
-            <div class="card mb-3">
-                <img style="height: 300px;  width: 100%; display: inline-block;" src="https://picsum.photos/200/300" alt="Card image">
-                <h3 class="card-header">Celular B</h3>
-                <div class="card-body">
-                    <p class="card-text">Precio.</p>
+
+                <div class="form-group">
+                    <label class="col-form-label col-form-label-sm" for="inputSmall">Marca</label>
+                    <input class="form-control form-control-sm" type="text" placeholder="Marca"
+                        id="inputSmall">
                 </div>
-            </div>
-            <div class="card mb-3">
-                <img style="height: 300px; width: 100%; display: inline-block;" src="https://picsum.photos/200/300" alt="Card image">
-                <h3 class="card-header">Celular C</h3>
-                <div class="card-body">
-                    <p class="card-text">Precio.</p>
+
+                <div class="form-group">
+                    <label class="col-form-label col-form-label-sm" for="inputSmall">Modelo</label>
+                    <input class="form-control form-control-sm" type="text" placeholder="Modelo" id="inputSmall">
                 </div>
-            </div>
-            <div class="card mb-3">
-                <img style="height: 300px; width: 100%; display: inline-block;" src="https://picsum.photos/200/300" alt="Card image">
-                <h3 class="card-header">Celular D</h3>
-                <div class="card-body">
-                    <p class="card-text">Precio.</p>
+
+                <div class="form-group">
+                    <label class="control-label">Precio</label>
+                    <div class="form-group">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">$</span>
+                            </div>
+                            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="card mb-3">
-                <img style="height: 300px; width: 100%; display: inline-block;" src="https://picsum.photos/200/300" alt="Card image">
-                <h3 class="card-header">Celular E</h3>
-                <div class="card-body">
-                    <p class="card-text">Precio.</p>
+                <div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
                 </div>
-            </div>
-            <div class="card mb-3">
-                <img style="height: 300px; width: 100%; display: inline-block;" src="https://picsum.photos/200/300" alt="Card image">
-                <h3 class="card-header">Celular F</h3>
-                <div class="card-body">
-                    <p class="card-text">Precio.</p>
-                </div>
-            </div>
+            </form>
+
         </main>
-        <aside class="col-md-4 blog-sidebar " >        
-            <div class="p-3">
-                <h4 class="font-italic">Marca</h4>
-                <ol class="list-unstyled mb-0">
-                    <li><a href="#">Datos...</a></li>
-                    <li><a href="#">Datos...</a></li>
-                    <li><a href="#">Datos...</a></li>
-                    <li><a href="#">Datos...</a></li>
-                </ol>
-            </div>
-        
-            <div class="p-3">
-                <h4 class="font-italic">Recientes</h4>
-                <ol class="list-unstyled">
-                    <li><a href="#">Modelo..</a></li>
-                    <li><a href="#">Modelo..</a></li>
-                    <li><a href="#">Modelo..</a></li>
-            </div>
-        </aside>
-
-        <h1 id="fecha">Cyber-Phone</h1>
-
         <footer class="page-footer font-small unique-color-dark pt-4">
             <div class="container">
                 <ul class="list-unstyled list-inline text-center py-2">
@@ -130,7 +99,7 @@
         </footer>
     </div>
     <script src="../javascript/jquery.min.js"></script>
-    <script src="../javascript/control.js"></script>
+    <script src="../javascript/formulario.js"></script>
 </body>
 
 </html>
