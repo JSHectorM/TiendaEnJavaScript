@@ -1,12 +1,6 @@
 
 
 $(document).ready(function () {
-//    var nombre = document.getElementById('nombre');
-//    var marca = document.getElementById('marca');
-//    var modelo = document.getElementById('modelo');
-//    var precio =  document.getElementById('precio');
-//
-//    var enviar = document.getElementById('enviar');
 
     $("#formulario").submit(function () {  
         if($("#nombre").val().length < 5) {  
@@ -21,7 +15,14 @@ $(document).ready(function () {
         } else if ($('#precio').val().length == 0) {
             alert("Debe escribir un precio");
             return false;
+        } else if ($('#imagen').val().length == 0) {
+            alert("Inserte la url de la img");
+            return false;
         }
         return true;  
     });  
 });
+
+//------------------------------------
+//Agregar producto...........
+
