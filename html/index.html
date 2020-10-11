@@ -50,7 +50,7 @@
                 </form>
             </div>
         </nav>
-        <main class="col-md-8 blog-main">
+        <!-- <main class="col-md-8 blog-main">
             <div class="card mb-3">
                 <img style="height: 300px; width: 100%; display: inline-block;" src="https://picsum.photos/200/300"
                     alt="Card image">
@@ -136,7 +136,24 @@
                     <li><a href="#">Modelo..</a></li>
                     <li><a href="#">Modelo..</a></li>
             </div>
-        </aside>
+        </aside> -->
+
+        <div class="container">
+            <div class="row">
+                <!-- Elementos generados a partir del JSON -->
+                <main id="items" class="col-sm-8 row"></main>
+                <!-- Carrito -->
+                <aside class="col-sm-4">
+                    <h2>Carrito</h2>
+                    <!-- Elementos del carrito -->
+                    <ul id="carrito" class="list-group"></ul>
+                    <hr>
+                    <!-- Precio total -->
+                    <p class="text-right">Total:$ <span id="total"></span></p>
+                    <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+                </aside>
+            </div>
+        </div>
 
         <h1 id="fecha">Cyber-Phone</h1>
 
